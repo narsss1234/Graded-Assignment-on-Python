@@ -5,7 +5,7 @@
 # importing regular regular expressions
 import re
 
-
+# define function check_password_strength
 def check_password_strength(password1):
 
     # Check if the password has at least 8 characters
@@ -29,6 +29,7 @@ def check_password_strength(password1):
 # create a variable that can store the input string which will provided by user
 password = str(input("Please enter a password: "))
 
+# if-else block to print if the password met the criteria or not.
 if check_password_strength(password):
     print("The entered password meets the password policy criteria.")
 else:
